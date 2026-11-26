@@ -1,0 +1,7 @@
+[Unit]
+Description=Respaldo incremental de /srv/proyecto con enlaces duros
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/respaldo.sh

@@ -1,0 +1,10 @@
+[Unit]
+Description=Programacion horaria del respaldo de /srv/proyecto
+
+[Timer]
+OnCalendar=hourly
+RandomizedDelaySec=2m
+Persistent=true
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,1 @@
+beto ALL=(root) NOPASSWD: /usr/bin/systemctl restart ssh
